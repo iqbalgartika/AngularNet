@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Workplace\\AngularNet\\WebAPI\\WebAPI\\WebAPI.csproj": {}
+    "E:\\Workplace\\AngularNet\\WebAPI\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "D:\\Workplace\\AngularNet\\WebAPI\\WebAPI\\WebAPI.csproj": {
+    "E:\\Workplace\\AngularNet\\WebAPI\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Workplace\\AngularNet\\WebAPI\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "E:\\Workplace\\AngularNet\\WebAPI\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "D:\\Workplace\\AngularNet\\WebAPI\\WebAPI\\WebAPI.csproj",
-        "packagesPath": "C:\\Users\\Aftershock PC\\.nuget\\packages\\",
-        "outputPath": "D:\\Workplace\\AngularNet\\WebAPI\\WebAPI\\obj\\",
+        "projectPath": "E:\\Workplace\\AngularNet\\WebAPI\\WebAPI\\WebAPI.csproj",
+        "packagesPath": "C:\\Users\\Iqbal Fajar\\.nuget\\packages\\",
+        "outputPath": "E:\\Workplace\\AngularNet\\WebAPI\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Aftershock PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Iqbal Fajar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

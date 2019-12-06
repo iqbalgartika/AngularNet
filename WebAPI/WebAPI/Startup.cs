@@ -51,6 +51,8 @@ namespace WebAPI
             }
             );
 
+            services.AddCors();
+
             //-------------------------------------------JWT Auth------------------------------------------
             var key = Encoding.UTF8.GetBytes(Configuration["ApplicationSettings:JWT_Secret"].ToString());
             services.AddAuthentication(x =>
@@ -80,6 +82,13 @@ namespace WebAPI
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseCors(options =>
+                options
+                .AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader()
+            );
 
             app.UseRouting();
 
