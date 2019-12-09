@@ -83,6 +83,7 @@ namespace WebAPI
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseRouting();
             app.UseCors(options =>
                 options
                 .AllowAnyOrigin()
@@ -90,8 +91,8 @@ namespace WebAPI
                 .AllowAnyHeader()
             );
 
-            app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
